@@ -4,6 +4,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![TensorFlow 2.19](https://img.shields.io/badge/TensorFlow-2.19-orange.svg)](https://www.tensorflow.org/)
 [![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19978019.svg)](https://doi.org/10.5281/zenodo.19978019)
 
 > **A learned 3-D displacement network tightly integrated with the ArduPilot EKF3 sensor-fusion stack.**
 
@@ -119,6 +120,9 @@ If you use this work, please cite the paper (BibTeX below) and respect the upstr
 
 ## Citation
 
+If you use this work, please cite **both** the paper and the archived software release:
+
+### Paper (arXiv preprint)
 ```bibtex
 @misc{abass2026ghost,
   title         = {{GHOST}: A {GPS}-Free Inertial Navigation System for Autonomous Vehicles},
@@ -131,7 +135,26 @@ If you use this work, please cite the paper (BibTeX below) and respect the upstr
 }
 ```
 
-(The arXiv ID will be filled in once the preprint is accepted — typically ~24 hours after submission.)
+### Software release (archived on Zenodo)
+The exact version of the code, notebooks, and pre-trained weights used in
+the paper is permanently archived on Zenodo with a citable DOI:
+
+```bibtex
+@software{abass2026ghost_software,
+  author    = {Abass, Abdalhay},
+  title     = {{GHOST}: A {GPS}-Free Inertial Navigation System for Autonomous Vehicles --- Software Release},
+  year      = {2026},
+  publisher = {Zenodo},
+  version   = {1.0},
+  doi       = {10.5281/zenodo.19978019},
+  url       = {https://doi.org/10.5281/zenodo.19978019}
+}
+```
+
+> **Note:** Replace `XXXX.XXXXX` with the arXiv preprint ID once it is assigned. The Zenodo DOI ([10.5281/zenodo.19978019](https://doi.org/10.5281/zenodo.19978019)) is already filled in.
+
+### Plain-text citation (for non-BibTeX use)
+> Abass, A. (2026). *GHOST: A GPS-Free Inertial Navigation System for Autonomous Vehicles* (1.0). Zenodo. <https://doi.org/10.5281/zenodo.19978019>
 
 ---
 
