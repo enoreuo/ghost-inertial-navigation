@@ -3,7 +3,6 @@
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![TensorFlow 2.19](https://img.shields.io/badge/TensorFlow-2.19-orange.svg)](https://www.tensorflow.org/)
-[![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19978019.svg)](https://doi.org/10.5281/zenodo.19978019)
 
 > **A learned 3-D displacement network tightly integrated with the ArduPilot EKF3 sensor-fusion stack.**
