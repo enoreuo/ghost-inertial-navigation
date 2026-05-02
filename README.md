@@ -34,8 +34,7 @@ GHOST replaces a GPS receiver with a TensorFlow Lite Micro neural network runnin
 ├── GHOST_v25_TFLM.keras       # Pre-trained weights (~7 MB)
 ├── GHOST_v25_TFLM.png         # Architecture diagram
 ├── tlio_model_data.h          # Embedded C header for STM32H7 deployment (~668 KB)
-├── ardupilot_GHOST/           # ArduPilot integration (AP_GHOST C++ library)
-└── paper/                     # arXiv paper sources
+└── ardupilot_GHOST/           # ArduPilot integration (AP_GHOST C++ library)
 ```
 
 ---
@@ -97,7 +96,7 @@ WAVE: Memory used 227024 / 1048576 bytes
 EKF3 IMU0 is using external nav data
 ```
 
-See `paper/main.tex` §3.5 for a full description of the integration.
+See the paper (Zenodo DOI above) §3.5 for a full description of the integration.
 
 ---
 
@@ -119,29 +118,14 @@ If you use this work, please cite the paper (BibTeX below) and respect the upstr
 
 ## Citation
 
-If you use this work, please cite **both** the paper and the archived software release:
+This work is permanently archived on Zenodo with a citable DOI. If you use
+this work, please cite the Zenodo record:
 
-### Paper (arXiv preprint)
+### BibTeX
 ```bibtex
-@misc{abass2026ghost,
-  title         = {{GHOST}: A {GPS}-Free Inertial Navigation System for Autonomous Vehicles},
-  author        = {Abass, Abdalhay},
-  year          = {2026},
-  eprint        = {XXXX.XXXXX},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.RO},
-  url           = {https://arxiv.org/abs/XXXX.XXXXX}
-}
-```
-
-### Software release (archived on Zenodo)
-The exact version of the code, notebooks, and pre-trained weights used in
-the paper is permanently archived on Zenodo with a citable DOI:
-
-```bibtex
-@software{abass2026ghost_software,
+@software{abass2026ghost,
   author    = {Abass, Abdalhay},
-  title     = {{GHOST}: A {GPS}-Free Inertial Navigation System for Autonomous Vehicles --- Software Release},
+  title     = {{GHOST}: A {GPS}-Free Inertial Navigation System for Autonomous Vehicles},
   year      = {2026},
   publisher = {Zenodo},
   version   = {1.0},
@@ -150,9 +134,7 @@ the paper is permanently archived on Zenodo with a citable DOI:
 }
 ```
 
-> **Note:** Replace `XXXX.XXXXX` with the arXiv preprint ID once it is assigned. The Zenodo DOI ([10.5281/zenodo.19978019](https://doi.org/10.5281/zenodo.19978019)) is already filled in.
-
-### Plain-text citation (for non-BibTeX use)
+### Plain-text citation
 > Abass, A. (2026). *GHOST: A GPS-Free Inertial Navigation System for Autonomous Vehicles* (1.0). Zenodo. <https://doi.org/10.5281/zenodo.19978019>
 
 ---
